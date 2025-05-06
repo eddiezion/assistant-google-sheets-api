@@ -60,3 +60,4 @@ def update_entry(update: UpdateEntry):
     index = lignes.index(ancienne) + 1
     sheet.update_cell(index, 1, nouvelle)
     return {"status": "success", "message": f"{ancienne} remplacée par {nouvelle}"}
+# redeploy
