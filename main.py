@@ -6,7 +6,7 @@ from google.oauth2.service_account import Credentials
 app = FastAPI()
 
 # Nom exact de ta feuille Google Sheets (à vérifier avec /list-sheets)
-SHEET_NAME = "ChatGPT - Freelances"
+SHEET_NAME = "Chatgpt_Freelances"
 CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
 # Connexion Google Sheets
