@@ -1,0 +1,1458 @@
+-------- Plugin Loading Log ------------
+
+Clearing the plugin cache from the registry. Existing version: 0, current version: 53
+
+Loading from root path: C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\en_US\
+Scanning for the following file types: *.prmp, *.prm, *.dll, *.aex, *.8bf
+
+Scanning C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\en_US and sub-directories
+
+Loading from root path: C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\
+Scanning for the following file types: *.prmp, *.prm, *.dll, *.aex, *.8bf
+
+Begin PluginNameList::AddFolder C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEAutoColor.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEAutoContrast.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEAutoLevels.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterAlphaAdjust.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterAlphaGlow.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterArithmetic.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterASCCDL.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterAutoReframe.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterB-C-2.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBarnDoors.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBasic_3D.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBevel_Alpha.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBevel_Edges.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlackAndWhite.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlend.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlock_Dissolve.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlueScreen.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBroadcast_Colors.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBrush_Strokes.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCalculations.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCellPattern.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCenterSplit.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChangeToColor.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChange_Color.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChannel_Blur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChannel_Mixer.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCheckerboard.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChromaKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCineonEffect.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCircle.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterClipName.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorAndContrast.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorFast.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorRGBCorrector.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorShift.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorSpaceTransform.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorsQuad.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorTexture.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorThreeWay.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_Balance_2.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_Emboss.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_HLS.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_Key.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCompound_Arith.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCompound_Blur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCorner_Pin.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCrop.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCrossDissolve.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDifference.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDigitalVideoLimiter.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDipToBlack.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDipToWhite.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDirectionalBlur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDrop_Shadow.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDust.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEcho.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEdgeFeather.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEllipse.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEmboss.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEqualize.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEyedropperFill.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterFast_Blur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterFind_Edges.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGarbageMatte.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGarbageMatte16.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGarbageMatte8.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGaussianBlur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGradient_Wipe.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGraphicGroup.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGraphicSubGroup.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGrid.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterHorizontalFlip.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterImageMatteKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterInset.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterInvert.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLeave_Color.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLens_Flare.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLightingEffect.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLightning.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLinear_Wipe.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumaCorrector.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumaCurve.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumaKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumetri.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMagnify.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMask.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMask2.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMedian.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMetadata.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMirror.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMorphCut.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMosaic.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoise.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoiseAlpha.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoiseHLS.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoiseHLSAuto.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNonAdditiveDissolve.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNonRedKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterOffset.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterPaintBucket.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterPosterize.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterPosterize_Time.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterProcAmp.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRadialShadow.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRadial_Wipe.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRamp.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRemoveMatte.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterReplicate.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRGBCurves.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRGBDifferenceKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRollingShutter.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRoughenEdges.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSDRConform.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSet_Matte.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterShape.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSharpen.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSimpleText.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSolidComposite.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSpherize.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSplit.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterStabilizer.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterStrobe_Light.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSubjectSelectMask.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterText.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTexturize.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterThreshold.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTimecode.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTint.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTrackMatteKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTransform.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTurbulentDisplace.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTwirl.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterUltraKey.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterUnsharp_Mask.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVenetian_Blinds.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVerticalFlip.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVideoLimiter.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRChromaLeaks.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRChromaticAberration.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRColorGradient.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRDenoise.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRDigitalGlitch.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRFractalNoise.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRGaussianBlur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRGlow.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRGradientWipe.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRIrisWipe.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRLightLeaks.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRLightRays.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRMobius.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRProject2D.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRProjection.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRRandomBlocks.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRRotateSphere.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRSharpen.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRSphericalBlur.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterWave_Warp.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterWhip.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterWrite_on.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEShadowHighlight.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ArriRawMXFSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ArriRawSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\CanonRawSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\CinemaDNGSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\DPXSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterAIFF.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterAVI.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterBMP.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterDPX.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterGIF.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterGIFStill.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterJPEG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMP3.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMPEG2.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMPEG4.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMPEGPreview.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMXF.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterP2.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterPNG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterQuickTimeHost.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterTarga.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterTIFF.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterUncompressed.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterWave.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterWindowsMedia.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterXDCAMHD.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\F65SourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\FCPXProjectConverter.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAIDE.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAIEPS.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAIFF.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterARRIRAW.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAVI.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterBarsAndTone.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterBlackMatte.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterColorMatte.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterDirectShow.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterDPX.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterF65.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterFastMPEG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterFFMPEG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterGraphics.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterJPEG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterLeader.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterLumetri.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMP3.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMP4.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMPEG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMultiStill.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMXF.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterPhotoshopProxy.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterPNG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterQuickTime.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterRED.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSensorManager.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSVG.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSyntheticCaption.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSyntheticTranscript.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterTarga.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterTiff.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterTransparentMatte.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterWave.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterWindowsMedia.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterXDCAMEX.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\Motion.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\MPEGSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\Opacity.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\OpenEXR.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\PlayerMediaCore.prm" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\PremiereFiltersMetaPlugin.prmp" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ProResRawSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\REDSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\SMDK-VC140-x64-4_24_0.dll" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\SonyRawMXFSourceSettings.aex" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\TransitionsMetaPlugin.prmp" 0
+PluginNameList::AddFilePath - added "C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\Wraptor.prm" 0
+Finished PluginNameList::AddFolder C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common 0
+Scanning C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common and sub-directories
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEAutoColor.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEAutoContrast.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEAutoLevels.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterAlphaAdjust.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterAlphaGlow.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterArithmetic.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterASCCDL.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterAutoReframe.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterB-C-2.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBarnDoors.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBasic_3D.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBevel_Alpha.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBevel_Edges.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlackAndWhite.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlend.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlock_Dissolve.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBlueScreen.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBroadcast_Colors.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterBrush_Strokes.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCalculations.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCellPattern.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCenterSplit.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChangeToColor.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChange_Color.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChannel_Blur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChannel_Mixer.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCheckerboard.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterChromaKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCineonEffect.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCircle.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterClipName.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorAndContrast.aex
+Loading from disk...
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorFast.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorRGBCorrector.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorShift.aex
+Loading from disk...
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorSpaceTransform.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorsQuad.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorTexture.aex
+Loading from disk...
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColorThreeWay.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_Balance_2.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_Emboss.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_HLS.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterColor_Key.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCompound_Arith.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCompound_Blur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCorner_Pin.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCrop.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterCrossDissolve.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDifference.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDigitalVideoLimiter.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDipToBlack.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDipToWhite.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDirectionalBlur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDrop_Shadow.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterDust.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEcho.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEdgeFeather.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEllipse.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEmboss.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEqualize.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterEyedropperFill.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterFast_Blur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterFind_Edges.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGarbageMatte.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGarbageMatte16.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGarbageMatte8.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGaussianBlur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGradient_Wipe.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGraphicGroup.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGraphicSubGroup.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterGrid.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterHorizontalFlip.aex
+Loading from disk...
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterImageMatteKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterInset.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterInvert.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLeave_Color.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLens_Flare.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLightingEffect.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLightning.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLinear_Wipe.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumaCorrector.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumaCurve.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumaKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterLumetri.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMagnify.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMask.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMask2.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMedian.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMetadata.aex
+Loading from disk...
+This plugin was recognized by loader 624e610b-0372-4082-b625-73865c15932b.
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMirror.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMorphCut.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterMosaic.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoise.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoiseAlpha.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoiseHLS.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNoiseHLSAuto.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNonAdditiveDissolve.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterNonRedKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterOffset.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterPaintBucket.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterPosterize.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterPosterize_Time.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterProcAmp.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRadialShadow.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRadial_Wipe.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRamp.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRemoveMatte.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterReplicate.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRGBCurves.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRGBDifferenceKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRollingShutter.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterRoughenEdges.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSDRConform.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSet_Matte.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterShape.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSharpen.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSimpleText.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSolidComposite.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSpherize.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSplit.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterStabilizer.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterStrobe_Light.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterSubjectSelectMask.prm
+Subject Select Mask plugin will be ignored, since PersonSelectionMask flag is off
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterText.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTexturize.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterThreshold.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTimecode.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTint.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTrackMatteKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTransform.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTurbulentDisplace.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterTwirl.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterUltraKey.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterUnsharp_Mask.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVenetian_Blinds.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVerticalFlip.aex
+Loading from disk...
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVideoLimiter.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRChromaLeaks.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRChromaticAberration.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRColorGradient.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRDenoise.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRDigitalGlitch.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRFractalNoise.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRGaussianBlur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRGlow.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRGradientWipe.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRIrisWipe.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRLightLeaks.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRLightRays.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRMobius.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRProject2D.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRProjection.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRRandomBlocks.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRRotateSphere.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRSharpen.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterVRSphericalBlur.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterWave_Warp.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterWhip.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEFilterWrite_on.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\AEShadowHighlight.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ArriRawMXFSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ArriRawSourceSettings.aex
+Loading from disk...
+This plugin was recognized by loader 9ee18075-33c9-482a-b1a3-f2ab007a5a07.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\CanonRawSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\CinemaDNGSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\DPXSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterAIFF.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterAVI.prm
+Loading from disk...
+This plugin was recognized by loader d3092dcf-904a-4a97-b4ca-66aed7540d57.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterBMP.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterDPX.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterGIF.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterGIFStill.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterJPEG.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMP3.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMPEG2.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMPEG4.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMPEGPreview.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterMXF.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterP2.prm
+Loading from disk...
+This plugin was recognized by loader d3092dcf-904a-4a97-b4ca-66aed7540d57.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterPNG.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterTarga.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterTIFF.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterUncompressed.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterWave.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterWindowsMedia.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterXDCAMHD.prm
+Loading from the JSON...
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\F65SourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\FCPXProjectConverter.prm
+Loading from disk...
+This plugin was recognized by loader 2d887736-82fa-4239-9b42-9019215e470d.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAIDE.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAIEPS.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAIFF.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterARRIRAW.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterAVI.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterBarsAndTone.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterBlackMatte.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterColorMatte.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterDirectShow.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterDPX.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterF65.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterFastMPEG.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterFFMPEG.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterGraphics.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterJPEG.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterLeader.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterLumetri.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMP3.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMP4.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMPEG.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMultiStill.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterMXF.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterPhotoshopProxy.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterPNG.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterRED.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSensorManager.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSVG.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSyntheticCaption.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterSyntheticTranscript.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterTarga.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterTiff.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterTransparentMatte.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterWave.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterWindowsMedia.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterXDCAMEX.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\Motion.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\MPEGSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\Opacity.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\OpenEXR.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+This plugin was recognized by loader d3092dcf-904a-4a97-b4ca-66aed7540d57.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\PlayerMediaCore.prm
+Loading from disk...
+This plugin was recognized by loader 1b5bc335-92e5-4479-bd38-d18bedec69b2.
+This plugin was recognized by loader c9936cb9-1979-48c8-bf22-dbe0ec323274.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\PremiereFiltersMetaPlugin.prmp
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ProResRawSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\REDSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\SMDK-VC140-x64-4_24_0.dll
+Loading from disk...
+No loaders recognized this plugin, so the plugin is set to Ignore.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\SonyRawMXFSourceSettings.aex
+Loading from the JSON...
+The plugin has a PiPL.
+The plugin was successfully loaded from the JSON.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\TransitionsMetaPlugin.prmp
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\Wraptor.prm
+Loading from disk...
+This plugin was recognized by loader d3092dcf-904a-4a97-b4ca-66aed7540d57.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ExporterQuickTimeHost.prm
+Loading from disk...
+This plugin was recognized by loader d3092dcf-904a-4a97-b4ca-66aed7540d57.
+
+Loading C:\Program Files\Adobe\Adobe Media Encoder 2025\PlugIns\Common\ImporterQuickTime.prm
+Loading from disk...
+This plugin was recognized by loader ba1058cd-0007-44e4-bf1a-0ef51307b979.
+
+Loading from root path: C:\Program Files\Adobe\Common\Plug-ins\7.0\MediaCore
+Scanning for the following file types: *.prmp, *.prm, *.dll, *.aex, *.8bf
+
+Begin PluginNameList::AddFolder C:\Program Files\Adobe\Common\Plug-ins\7.0\MediaCore 0
+Finished PluginNameList::AddFolder C:\Program Files\Adobe\Common\Plug-ins\7.0\MediaCore 0
+Scanning C:\Program Files\Adobe\Common\Plug-ins\7.0\MediaCore and sub-directories
+

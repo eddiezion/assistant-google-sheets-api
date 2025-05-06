@@ -1,0 +1,15 @@
+Log file created: 12/11/24 13:31:18
+-------------------------------------
+Ticks = 1813      <17048> <AnywhereLocalClient> <5> Local Hub HTTP port retrieved, port: 54865
+Ticks = 8829      <22692> <AMEApp> <0> Time taken to load MediaCore plugins: 1201.66 milliseconds.
+Ticks = 9094      <8328> <GPUFoundation> <5> Done loading modules, sec: 1.64729, device: CUDA(0)
+Ticks = 9594      <22692> <AMEApp> <1> Entering RunEventLoop
+Ticks = 10829      <18216> <EACL> <5> Connecting local hub to remote hub, requestID: "44b7f31f-4cf9-442f-a094-aef5ee4bed3e", server: "https://cc-api-teamprojects.adobe.io:443", serverType: 2, user: "eddie.formosa@gmail.com", machineID: "1a62bbea-b7f8-486f-8563-d0d4d89fc44d"
+Ticks = 11141      <12208> <dvanet::HTTP> <4> Mismatched HTTP response, requestID: "619bf6c7-4b5b-40dd-8b8e-df3f91cceb7d", expected: "dvanet-619bf6c7-4b5b-40dd-8b8e-df3f91cceb7d-8ae2cc71-dde1-4dce-b717-f1126e189202-14", received: "8bkmuwTUVyeGqclVLyTfoLdD3HAhWThg", corrected: "8bkmuwTUVyeGqclVLyTfoLdD3HAhWThg"
+Ticks = 11141      <15104> <EACL.CloudProjectsLogin> <5> Finished sending new access token to LocalHub, result: 0, requestID: "dvanet-44b7f31f-4cf9-442f-a094-aef5ee4bed3e-8ae2cc71-dde1-4dce-b717-f1126e189202-8", duration: 0.088, httpStatusCode: 200, httpLibCode: 0, payload: "[{\"authorized\":true,\"connected\":true,\"forbidden\":{\"error_code\":\"\",\"message\":\"\"},\"lastAuthorizationStatusCode\":200,\"serverURL\":\"https://cc-api-teamprojects.adobe.io:443\",\"serverVersion\":\"2016.93.0.1283\"}]"
+Ticks = 11407      <15104> <CCFilesEOL> <5> Setting feature enabled: false, in app messaging enabled: false
+Ticks = 89969      <8264> <ExporterHost::BeginThreadExport> <5> Exporter finished in : 8.39404 seconds. Result code: 0 Destination:C:\Users\PC\Desktop\Projets\Liss Llewellyn\Medias\Anims\Tableaux\01-2.gif
+Ticks = 1792797      <22692> <AMEApp> <1> Exited RunEventLoop
+--------------------------------------
+Log file closed: 12/11/24 14:01:11
+
