@@ -5,17 +5,17 @@ from google.oauth2.service_account import Credentials
 
 app = FastAPI()
 
-# 📄 Nom de la feuille Google Sheets à connecter (à adapter après test avec /list-sheets)
-SHEET_NAME = "ChatGPT - Freelances"  # <-- remplace par le nom exact après test
+# Nom exact de ta feuille Google Sheets (à vérifier avec /list-sheets)
+SHEET_NAME = "ChatGPT - Freelances"
 CREDENTIALS_FILE = "credentials.json"
 
-# 🔐 Connexion à l'API Google Sheets
+# Connexion Google Sheets
 scopes = ["https://www.googleapis.com/auth/spreadsheets"]
 creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
 client = gspread.authorize(creds)
 sheet = client.open(SHEET_NAME).sheet1
 
-# 📦 Modèles de données
+# Modèles de données
 class Entry(BaseModel):
     valeur: str
 
@@ -32,14 +32,21 @@ def preview():
     data = sheet.get_all_records()
     return {"extrait": data[:5]}
 
+@app.get("/list-sheets")
+def list_sheets():
+    try:
+        spreadsheets = client.openall()
+        noms = [s.title for s in spreadsheets]
+        return {"feuilles_accessibles": noms}
+    except Exception as e:
+        return {"error": str(e)}
+
 @app.post("/add-entry")
 def add_entry(entry: Entry):
     valeur = entry.valeur.strip().lower()
     lignes = [v.strip().lower() for v in sheet.col_values(1)]
-    
     if valeur in lignes:
         return {"status": "success", "message": "Déjà présente"}
-    
     sheet.append_row([valeur])
     return {"status": "success", "message": "Ajoutée avec succès"}
 
@@ -47,20 +54,9 @@ def add_entry(entry: Entry):
 def update_entry(update: UpdateEntry):
     ancienne = update.ancienne_valeur.strip().lower()
     nouvelle = update.nouvelle_valeur.strip().lower()
-    
     lignes = [v.strip().lower() for v in sheet.col_values(1)]
     if ancienne not in lignes:
         return {"status": "error", "message": "Ancienne valeur introuvable"}
-    
-    index = lignes.index(ancienne) + 1  # gspread est 1-indexé
+    index = lignes.index(ancienne) + 1
     sheet.update_cell(index, 1, nouvelle)
     return {"status": "success", "message": f"{ancienne} remplacée par {nouvelle}"}
-
-@app.get("/list-sheets")
-def list_sheets():
-    try:
-        spreadsheets = client.openall()
-        noms = [spreadsheet.title for spreadsheet in spreadsheets]
-        return {"feuilles_accessibles": noms}
-    except Exception as e:
-        return {"error": str(e)}
