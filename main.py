@@ -13,7 +13,10 @@ SHEET_NAME = "Chatgpt_Freelances"
 CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
 # Connexion Google Sheets
-scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+scopes = [
+    "https://www.googleapis.com/auth/spreadsheets",
+    "https://www.googleapis.com/auth/drive"
+]
 creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
 client = gspread.authorize(creds)
 sheet = client.open(SHEET_NAME).sheet1
