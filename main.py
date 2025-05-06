@@ -7,7 +7,7 @@ app = FastAPI()
 
 # Nom exact de ta feuille Google Sheets (à vérifier avec /list-sheets)
 SHEET_NAME = "ChatGPT - Freelances"
-CREDENTIALS_FILE = "credentials.json"
+CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
 # Connexion Google Sheets
 scopes = ["https://www.googleapis.com/auth/spreadsheets"]
