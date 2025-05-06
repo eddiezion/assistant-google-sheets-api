@@ -55,3 +55,12 @@ def update_entry(update: UpdateEntry):
     sheet.update_cell(index, 1, nouvelle)
     return {"status": "success", "message": f"{ancienne} remplacée par {nouvelle}"}
 
+@app.get("/list-sheets")
+def list_sheets():
+    try:
+        spreadsheets = client.openall()
+        noms = [spreadsheet.title for spreadsheet in spreadsheets]
+        return {"feuilles_accessibles": noms}
+    except Exception as e:
+        return {"error": str(e)}
+
