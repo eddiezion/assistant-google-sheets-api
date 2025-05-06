@@ -5,10 +5,11 @@ from google.oauth2.service_account import Credentials
 
 app = FastAPI()
 
-# 🔑 Authentification Google Sheets
-SHEET_NAME = "Chatgpt_Freelances"  # <-- Mets ici le nom exact de ta feuille Google Sheets
+# 📄 Nom de la feuille Google Sheets à connecter (à adapter après test avec /list-sheets)
+SHEET_NAME = "ChatGPT - Freelances"  # <-- remplace par le nom exact après test
 CREDENTIALS_FILE = "credentials.json"
 
+# 🔐 Connexion à l'API Google Sheets
 scopes = ["https://www.googleapis.com/auth/spreadsheets"]
 creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
 client = gspread.authorize(creds)
@@ -63,4 +64,3 @@ def list_sheets():
         return {"feuilles_accessibles": noms}
     except Exception as e:
         return {"error": str(e)}
-
