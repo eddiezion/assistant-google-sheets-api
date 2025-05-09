@@ -135,3 +135,5 @@ def custom_openapi():
         {"url": "https://assistant-google-sheets-api.onrender.com"}
     ]
     return openapi_schema
+
+app.openapi = custom_openapi
