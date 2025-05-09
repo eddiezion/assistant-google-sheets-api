@@ -1,13 +1,16 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.openapi.utils import get_openapi
+from fastapi import Query
+from typing import List
+
 import gspread
 from google.oauth2.service_account import Credentials
 from unidecode import unidecode
-from fastapi.openapi.utils import get_openapi
 
 app = FastAPI()
 
-# === CONFIGURATION ===
+# === CONFIGURATION GOOGLE SHEETS ===
 SHEET_NAME = "Chatgpt_Freelances"
 CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
@@ -43,7 +46,7 @@ class UpdateCell(BaseModel):
     colonne: str
     valeur: str
     feuille: str = "Sheet1"
-    colonne_reference: str = "Nom"  # 🆕
+    colonne_reference: str = "Nom"
 
 # === ROUTES ===
 
@@ -70,6 +73,21 @@ def list_sheets():
         return {
             "feuilles_accessibles": noms,
             "message": f"Feuilles disponibles : {', '.join(noms)}"
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/get-lines")
+def get_lines(feuille: str = "Sheet1", start: int = 6, end: int = 20):
+    try:
+        ws = get_worksheet(feuille)
+        data = ws.get_all_values()
+        headers = data[0]
+        selected_rows = data[start - 1:end]  # 1-based → 0-indexed
+        result = [dict(zip(headers, row)) for row in selected_rows if any(row)]
+        return {
+            "plage": f"Lignes {start} à {end}",
+            "données": result
         }
     except Exception as e:
         return {"error": str(e)}
