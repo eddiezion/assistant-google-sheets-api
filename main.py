@@ -7,7 +7,7 @@ from fastapi.openapi.utils import get_openapi
 
 app = FastAPI()
 
-# === CONFIGURATION GOOGLE SHEETS ===
+# === CONFIGURATION ===
 SHEET_NAME = "Chatgpt_Freelances"
 CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
@@ -18,7 +18,7 @@ scopes = [
 creds = Credentials.from_service_account_file(CREDENTIALS_FILE, scopes=scopes)
 client = gspread.authorize(creds)
 
-# === UTILITAIRES ===
+# === UTILS ===
 def normalize(text: str) -> str:
     return unidecode(text.strip().lower())
 
@@ -43,8 +43,10 @@ class UpdateCell(BaseModel):
     colonne: str
     valeur: str
     feuille: str = "Sheet1"
+    colonne_reference: str = "Nom"  # 🆕
 
 # === ROUTES ===
+
 @app.get("/")
 def home():
     return {"message": "API connectée à Google Sheets ✅"}
@@ -61,8 +63,14 @@ def preview(feuille: str = "Sheet1"):
 @app.get("/list-sheets")
 def list_sheets():
     try:
-        feuilles = client.open(SHEET_NAME).worksheets()
-        return {"feuilles_accessibles": [ws.title for ws in feuilles]}
+        spreadsheet = client.open(SHEET_NAME)
+        spreadsheet._sheet_list = None  # force refresh
+        feuilles = spreadsheet.worksheets()
+        noms = [ws.title for ws in feuilles]
+        return {
+            "feuilles_accessibles": noms,
+            "message": f"Feuilles disponibles : {', '.join(noms)}"
+        }
     except Exception as e:
         return {"error": str(e)}
 
@@ -99,21 +107,37 @@ def update_cell(data: UpdateCell):
     try:
         ws = get_worksheet(data.feuille)
         headers = ws.row_values(1)
-        if data.colonne not in headers:
-            return {"status": "error", "message": f"Colonne '{data.colonne}' introuvable"}
-        col_index = headers.index(data.colonne) + 1
-        noms_originaux = ws.col_values(1)
-        noms_normalises = [normalize(n) for n in noms_originaux]
-        nom_normalise = normalize(data.nom)
-        if nom_normalise not in noms_normalises:
-            return {"status": "error", "message": f"Nom '{data.nom}' introuvable dans la colonne A"}
-        row_index = noms_normalises.index(nom_normalise) + 1
-        ws.update_cell(row_index, col_index, data.valeur.strip())
-        return {"status": "success", "message": f"Cellule mise à jour pour '{data.nom}' → {data.colonne} = {data.valeur}"}
-    except Exception as e:
-        return {"status": "error", "message": str(e)}
 
-# === SCHEMA OPENAPI POUR GPT ===
+        if data.colonne not in headers:
+            return {"status": "error", "message": f"Colonne à modifier '{data.colonne}' introuvable"}
+        if data.colonne_reference not in headers:
+            return {"status": "error", "message": f"Colonne de recherche '{data.colonne_reference}' introuvable"}
+
+        col_modif_index = headers.index(data.colonne) + 1
+        col_ref_index = headers.index(data.colonne_reference) + 1
+
+        valeurs_ref = ws.col_values(col_ref_index)
+        valeurs_ref_normalisées = [normalize(v) for v in valeurs_ref]
+        nom_normalise = normalize(data.nom)
+
+        if nom_normalise not in valeurs_ref_normalisées:
+            return {
+                "status": "error",
+                "message": f"'{data.nom}' introuvable dans la colonne '{data.colonne_reference}'"
+            }
+
+        row_index = valeurs_ref_normalisées.index(nom_normalise) + 1
+        ws.update_cell(row_index, col_modif_index, data.valeur.strip())
+
+        return {
+            "status": "success",
+            "message": f"✅ Cellule modifiée : {data.colonne} de '{data.nom}' → {data.valeur}"
+        }
+
+    except Exception as e:
+        return {"status": "error", "message": f"Erreur : {str(e)}"}
+
+# === OPENAPI POUR GPT ===
 def custom_openapi():
     openapi_schema = get_openapi(
         title="Assistant Google Sheets API",
