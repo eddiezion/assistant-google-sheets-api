@@ -11,7 +11,7 @@ from unidecode import unidecode
 app = FastAPI()
 
 # === CONFIGURATION GOOGLE SHEETS ===
-SHEET_NAME = "Avocats - Liste prospection"
+SPREADSHEET_KEY = "1hao5XqJ9MTY-tYVu7YKwwodf5AD0K_ezGLVuv7GJf54"  # ID exact du fichier
 CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
 scopes = [
@@ -27,10 +27,10 @@ def normalize(text: str) -> str:
 
 def get_worksheet(nom_feuille: str):
     try:
-        return client.open(SHEET_NAME).worksheet(nom_feuille)
+        return client.open_by_key(SPREADSHEET_KEY).worksheet(nom_feuille)
     except Exception:
-        raise ValueError(f"Feuille '{nom_feuille}' introuvable.")
-
+        raise ValueError(f"Feuille '{nom_feuille}' introuvable dans le fichier.")
+        
 # === MODELES ===
 class Entry(BaseModel):
     valeur: str
