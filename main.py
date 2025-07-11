@@ -30,7 +30,7 @@ def get_worksheet(nom_feuille: str):
         return client.open_by_key(SPREADSHEET_KEY).worksheet(nom_feuille)
     except Exception:
         raise ValueError(f"Feuille '{nom_feuille}' introuvable dans le fichier.")
-        
+
 # === MODELES ===
 class Entry(BaseModel):
     valeur: str
@@ -66,7 +66,7 @@ def preview(feuille: str = "Sheet1"):
 @app.get("/list-sheets")
 def list_sheets():
     try:
-        spreadsheet = client.open(SHEET_NAME)
+        spreadsheet = client.open_by_key(SPREADSHEET_KEY)
         spreadsheet._sheet_list = None  # force refresh
         feuilles = spreadsheet.worksheets()
         noms = [ws.title for ws in feuilles]
