@@ -11,7 +11,7 @@ from unidecode import unidecode
 app = FastAPI()
 
 # === CONFIGURATION GOOGLE SHEETS ===
-SHEET_NAME = "Chatgpt_Freelances"
+SHEET_NAME = "Avocats - Liste prospection"
 CREDENTIALS_FILE = "/etc/secrets/credentials.json"
 
 scopes = [
